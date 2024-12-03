@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MatricesEjercicio {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Escrube cuantas filas y columnas quieres que sea la matriz");
+        System.out.println("Escribe cuantas filas y columnas quieres que sea la matriz");
         int filas = input.nextInt();
         int columnas = input.nextInt();
         int[][] matrizA = new int[filas][columnas];
