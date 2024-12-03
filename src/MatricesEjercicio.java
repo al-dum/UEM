@@ -12,7 +12,7 @@ public class MatricesEjercicio {
         int[][] matrizC = new int[filas][columnas];
 
         System.out.println("Ingrese los valores para la Matriz A:");
-        for(int i = 0; i < filas; i++) {
+        for (int i = 0; i < filas; i++) {
             for (int j = 0; j < columnas; j++) {
                 System.out.printf("Ingrese el valor para la posición [%d][%d]: ", i, j);
                 matrizA[i][j] = input.nextInt();
