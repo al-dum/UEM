@@ -118,6 +118,21 @@ public class MatricesEjercicio {
                 }
                 break;
 
+            case 7:
+                // Verificar matriz de identidad
+                System.out.println("Elija qué matriz quiere verificar:");
+                System.out.println("1. Matriz A");
+                System.out.println("2. Matriz B");
+                int seleccionMatriz = input.nextInt();
+
+                int[][] matrizAVerificar = (seleccionMatriz == 1) ? matrizA : matrizB;
+
+                if (esMatrizIdentidad(matrizAVerificar)) {
+                    System.out.println("La matriz es una matriz de identidad.");
+                } else {
+                    System.out.println("La matriz NO es una matriz de identidad.");
+                }
+                break;
             default:
                 System.out.println("Operación no válida.");
         }
