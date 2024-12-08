@@ -115,7 +115,8 @@ public class MatricesEjercicio {
                     System.out.println("\nMatriz Identidad:");
                     imprimirMatriz(identidad);
                 } else {
-                    System.out.println("Error: La matriz identidad solo se puede generar para matrices cuadradas.");
+                    System.out.println(
+                            "Error: La matriz identidad solo se puede generar para matrices cuadradas.");
                 }
                 break;
 
