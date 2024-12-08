@@ -135,6 +135,7 @@ public class MatricesEjercicio {
                 break;
             default:
                 System.out.println("Operación no válida.");
+
         }
         input.close();
     }
