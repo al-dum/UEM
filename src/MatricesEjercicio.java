@@ -173,7 +173,8 @@ public class MatricesEjercicio {
         }
 
         // Si la matriz es más grande se tiene que usar otro metodo
-        System.out.println("Determinante para matrices mayores a 3x3 requiere métodos más complejos.");
+        System.out.println(
+                "Determinante para matrices mayores a 3x3 requiere métodos más complejos.");
         return 0;
     }
 
