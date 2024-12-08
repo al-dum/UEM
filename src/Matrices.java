@@ -38,9 +38,9 @@ public class Matrices {
     }
 
     public static void imprimirMatriz(int[][] matriz) {
-        for(int i = 0; i < matriz.length; i++){
-            for (int j = 0; j < matriz[i].length; j++){
-                System.out.printf("%4d", matriz[i][j]);
+        for (int[] ints : matriz) {
+            for (int anInt : ints) {
+                System.out.printf("%4d", anInt);
             }
             System.out.println();
         }
