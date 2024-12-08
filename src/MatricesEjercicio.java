@@ -103,7 +103,8 @@ public class MatricesEjercicio {
                     System.out.println("Determinante Matriz A: " + determinante(matrizA));
                     System.out.println("Determinante Matriz B: " + determinante(matrizB));
                 } else {
-                    System.out.println("Error: El determinante solo se puede calcular en matrices cuadradas.");
+                    System.out.println(
+                            "Error: El determinante solo se puede calcular en matrices cuadradas.");
                 }
                 break;
 
