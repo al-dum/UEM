@@ -184,4 +184,29 @@ public class MatricesEjercicio {
         }
         return identidad;
     }
+
+    public static boolean esMatrizIdentidad(int[][] matriz) {
+        // solo funciona si la matriz es un cuadrado, aqui se verifica que lo sea
+        int n = matriz.length;
+        for (int[] ints : matriz) {
+            if (ints.length != n) {
+                return false;
+            }
+        }
+
+        // Condiciones de matriz identidad
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                // La diagonal debe ser 1
+                if (i == j && matriz[i][j] != 1) {
+                    return false;
+                }
+                // Fuera de la diagonal debe ser 0
+                if (i != j && matriz[i][j] != 0) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
 }
