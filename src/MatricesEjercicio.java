@@ -162,7 +162,7 @@ public class MatricesEjercicio {
             return matriz[0][0] * matriz[1][1] - matriz[0][1] * matriz[1][0];
         }
 
-        // Caso para matrices 3x3 usando regla de Sarrus
+        // Caso para matrices 3x3 usando regla de Sarrus ni me pregunten que es eso no lo se, no he visto tanto de matrices, si lo googlee
         if (n == 3) {
             return (matriz[0][0] * matriz[1][1] * matriz[2][2] + matriz[0][1] * matriz[1][2] * matriz[2][0] + matriz[0][2] * matriz[1][0] * matriz[2][1]) - (matriz[0][2] * matriz[1][1] * matriz[2][0] + matriz[0][0] * matriz[1][2] * matriz[2][1] + matriz[0][1] * matriz[1][0] * matriz[2][2]);
         }
