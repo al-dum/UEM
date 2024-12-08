@@ -164,12 +164,7 @@ public class MatricesEjercicio {
 
         // Caso para matrices 3x3 usando regla de Sarrus
         if (n == 3) {
-            return (matriz[0][0] * matriz[1][1] * matriz[2][2] +
-                    matriz[0][1] * matriz[1][2] * matriz[2][0] +
-                    matriz[0][2] * matriz[1][0] * matriz[2][1]) -
-                    (matriz[0][2] * matriz[1][1] * matriz[2][0] +
-                            matriz[0][0] * matriz[1][2] * matriz[2][1] +
-                            matriz[0][1] * matriz[1][0] * matriz[2][2]);
+            return (matriz[0][0] * matriz[1][1] * matriz[2][2] + matriz[0][1] * matriz[1][2] * matriz[2][0] + matriz[0][2] * matriz[1][0] * matriz[2][1]) - (matriz[0][2] * matriz[1][1] * matriz[2][0] + matriz[0][0] * matriz[1][2] * matriz[2][1] + matriz[0][1] * matriz[1][0] * matriz[2][2]);
         }
 
         // Si la matriz es más grande se tiene que usar otro metodo
